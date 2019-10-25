@@ -1,0 +1,99 @@
+header ul {
+    /*border-top: 3px solid black;
+    border-bottom: 3px solid black;*/
+    text-align:center;
+
+}
+
+
+
+
+
+.click:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.click:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.click:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.click:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+header li {
+    display: inline-block;
+    border-right: 2px solid black;
+    padding-right: 10px;
+
+}
+header li:hover{
+    background-color: grey;
+}
+
+header ul {
+    padding: 0px;
+    margin: 5px;
+
+}
+
+header nav h1 {
+    padding: center;
+   text-align: center;
+
+
+}
+
+#mainContent{
+display:flex;
+align-items: stretch;
+
+}
+
+#list {
+
+position:relative;
+float:right;
+text-align: right;
+list-style-type:none;
+display:block;
+font-size:20px;
+padding-right:5px;
+margin-left:5px;
+-moz-border-radius:5px;
+
+
+}
+#list ul {
+
+
+    list-style-type:none;
+
+
+    }
+
+
+.mainheader {
+    background : red;
+    background-image: -moz-linear-gradient(45deg, green 0%, red 50%, yellow 100%);
+    background-image: -webkit-linear-gradient(45deg, green 0%, red 50%, yellow 100%);
+    background-image: linear-gradient(45deg, green 0%, red 50%, yellow 100%);
+}
+
+   #list {
+
+        display:flex;
+
+    }

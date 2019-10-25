@@ -1,0 +1,165 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+font-family: georgia, serif;
+font-size: 18px;
+line-height: 1.6em; 	 /* grosseur de la ligne   */
+background-image: url('assets/Images/KurdistanLives.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+@media screen and (max-width: 400px) {
+    body {
+        background-color: olive;
+    }
+}
+header ul {
+    /*border-top: 3px solid black;
+    border-bottom: 3px solid black;*/
+    text-align:center;
+
+}
+
+
+
+
+
+.click:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.click:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.click:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.click:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+header li {
+    display: inline-block;
+    border-right: 2px solid black;
+    padding-right: 10px;
+
+}
+header li:hover{
+    background-color: grey;
+}
+
+header ul {
+    padding: 0px;
+    margin: 5px;
+
+}
+
+header nav h1 {
+    padding: center;
+   text-align: center;
+
+
+}
+div#container{
+	//width: 800px;
+	margin: 40px auto;
+	padding: 40px;
+	background-color: rgba(255, 255, 255, 0.8); 	/*transparence */
+}
+#mainContent{
+display:flex;
+align-items: stretch;
+
+}
+
+#list {
+
+position:relative;
+float:right;
+text-align: right;
+list-style-type:none;
+display:block;
+font-size:20px;
+padding-right:5px;
+margin-left:5px;
+-moz-border-radius:5px;
+
+
+}
+#list ul {
+
+
+    list-style-type:none;
+
+
+    }
+
+
+.mainheader {
+    background : red;
+    background-image: -moz-linear-gradient(45deg, green 0%, red 50%, yellow 100%);
+    background-image: -webkit-linear-gradient(45deg, green 0%, red 50%, yellow 100%);
+    background-image: linear-gradient(45deg, green 0%, red 50%, yellow 100%);
+}
+
+   #list {
+
+        display:flex;
+
+    }
+
+#info {
+
+background: #AAFFFF;
+width: 100%;
+
+
+}
+
+
+
+
+label {
+/*float: left;*/
+width: 10em;
+text-align: right;
+}
+
+input{
+width: 25em;
+margin-top: 5em;
+margin-left: 30em;
+margin-bottom: 10em;
+}
+
+
+#boutons input {
+width: 10em;
+}
+
+
+
+    footer {
+
+     /**   clear: both;
+        border-top: 2px solid black;
+        padding: 15px;
+        background: green;  **/
+        background-image: -moz-linear-gradient(45deg, grey 0%, grey 25%, grey 75%);
+        background-image: -webkit-linear-gradient(45deg, grey 0%, grey 25%, grey 75%);
+        background-image: linear-gradient(45deg, grey 0%, grey 25%, grey 75%);
+    }
+
+    footer p {
+        font-size: 90%;
+        text-align: center;
+    }
